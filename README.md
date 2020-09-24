@@ -8,8 +8,16 @@ I know this is stylistically... questionable (namely the use of global variables
 
 # Prereqs
 
+You need npm/node set up on your machine.
+
 You need a slack app in your slack workspace. In particular, you need to authenticate it to obtain a bearer token so this script can authenticate when it calls Slack's API. You also need a channel ID and a user ID as Slack represents them (i.e. not the channel name, if you call another endpoint that gets a list of channels then pull a page of a channel's messages you can extrapolate these pretty quickly.
 
 The token, the user id and the channel id should be placed in a file called `config.json` that you create (see `fake-config.json` for a template).
 
 The time between calls is also configurable! This is important so you don't get rate limited- I use 3000ms but you can likely make this value smaller. I need to check Slack's documentation to give a more precise value.
+
+# Running this script
+
+* Set up your `config.json`
+* Run `npm install`
+* Run `npm start`
