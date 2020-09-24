@@ -1,0 +1,19 @@
+{
+  "name": "slack-scraper",
+  "version": "1.0.0",
+  "description": "Scrape up dat slack",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper",
+    "test": "test"
+  },
+  "author": "MyNameTeve",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "config": "^3.3.1"
+  },
+  "devDependencies": {
+
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "channel":"insert channel id here",
+    "token": "insert token here, formatted as 'Bearer [string of text]",
+    "user": "insert user id here",
+    "time_between_calls": 3000
+}
