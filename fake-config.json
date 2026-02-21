@@ -1,6 +1,7 @@
 {
-    "channel":"insert channel id here",
-    "token": "insert token here, formatted as 'Bearer [string of text]",
-    "user": "insert user id here",
+    "client_id": "insert slack app client id here",
+    "client_secret": "insert slack app client secret here",
+    "token": "populated by auth.js",
+    "user": "populated by auth.js",
     "time_between_calls": 3000
 }

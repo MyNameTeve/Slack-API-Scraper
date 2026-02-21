@@ -4,6 +4,7 @@
   "description": "Scrape up dat slack",
   "main": "scraper.js",
   "scripts": {
+    "auth": "node auth",
     "start": "node scraper",
     "test": "test"
   },
